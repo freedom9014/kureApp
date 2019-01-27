@@ -9,16 +9,12 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-
-    <servlet>
-  	<servlet-name>display</servlet-name>
-  	<jsp-file>/risyu/display.jsp</jsp-file>
+  <servlet>
+    <servlet-name>display</servlet-name>
+    <jsp-file>/risyu/display.jsp</jsp-file>
   </servlet>
-
   <servlet-mapping>
-  	<servlet-name>display</servlet-name>
-  	<url-pattern>/risyu/display</url-pattern>
+    <servlet-name>display</servlet-name>
+    <url-pattern>/risyu/display</url-pattern>
   </servlet-mapping>
-
-
 </web-app>
